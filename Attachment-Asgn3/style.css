@@ -4,5 +4,27 @@ html, body{
   height: 100%;
 }
 
+article{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+@media screen and (min-width: 940px) {
+  video {
+    display: block;
+    width: 100%;
+  }
+  img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 940px) {
+  video {
+    display: none;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+}
 /* Part 4 */
-

@@ -2,9 +2,11 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #FAA21B;
+    position: relative;
 }
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
     width: 100%;
@@ -16,4 +18,7 @@ ul{
 
 ul li li:last-child {
     color:blue;
+}
+p{
+    max-width: 65ch;
 }
