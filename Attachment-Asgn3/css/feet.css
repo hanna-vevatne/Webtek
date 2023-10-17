@@ -1,0 +1,19 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: red;
+}
+ul{
+    list-style: square;
+}
+
+ul li li:last-child {
+    color:blue;
+}
